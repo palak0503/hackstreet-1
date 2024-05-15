@@ -41,7 +41,7 @@ const styles = {
   },
   container: {
     backgroundColor: '#1F6933',
-    width: '98.9vw',
+    width: '100%',
     paddingTop: '10px',
     paddingBottom: '10px',
     fontFamily: 'Familjen Grotesk, sans-serif',

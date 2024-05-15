@@ -12,9 +12,9 @@ function Cover() {
   return (
     <div className='cover'> 
     <HeaderShift />
-        <div className="overlay">
+       
         <video src={videoBg} autoPlay loop muted/>
-        </div>
+       
         <div className = "back">
         <img className="image" src={pic}/>
 

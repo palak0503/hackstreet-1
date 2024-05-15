@@ -2,8 +2,8 @@
     font-family: 'Roboto';
     background: linear-gradient(90deg, #139485, #009a84, #00a181, #00a77c, #00ad76, #00b26f, #15b866, #2dbd5b);
     text-align: center;
-    height: 100%;
-    width: fit-content;
+    
+   
     justify-content: center;
     align-items: center;
 }

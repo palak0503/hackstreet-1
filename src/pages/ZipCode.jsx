@@ -74,7 +74,7 @@ const ZipCode = () => {
             <img src={forSale}/>
             <div className="forSaleText">
                 <h1>Discover New Homes</h1>
-                <p className="discoverText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <p className="discoverText">Enter a zipcode and use our tools to find the house that meets your needs!</p>
                 <div >
                     <input
                         inputMode="number"
@@ -91,30 +91,15 @@ const ZipCode = () => {
         <div className="forSale discoverBottom">
             <div className="forSaleTextL">
                 <h1>Assess The Community</h1>
-                <p className="discoverText2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <p className="discoverText2">We provide information on the walk, bike, and transit score as well as the distance to the nearest hospital so you can find not just a home, but also the community that is right for you!</p>
                 <Link to="/resources" className="discoverButton">Learn More</Link>
             </div>
             <img src={neighborhood} style={{width: '612px'}}/>
         </div>
 
-        <div className="forSale discoverBottom">
-            <img src={apartment} style={{width: '612px'}}/>
-            <div className="forSaleText">
-                <h1>Find New Properties</h1>
-                <p className="discoverText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                <div >
-                    <input
-                        inputMode="number"
-                        className="zip"
-                        placeholder='Enter ZipCode'
-                        value={zipCodes}
-                        onChange={handleChange} />   
-                    <Link to={`/findHome/${zipCodes}/${city}/${state}`} className="zipButtons"><FontAwesomeIcon icon={faMagnifyingGlass} /></Link>
-
-                </div>
-            </div>
-        </div>
-
+       
+         
+       
         <div className="newHome">
             <h1 className="lateHome">Latest Homes in New York:</h1>
             <ZipCodeCarousel />

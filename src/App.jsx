@@ -5,7 +5,7 @@ import Cover from './components/Cover';
 function App()  {
 
   return (
-    <div>
+    <div className = "body">
       <Cover />
     </div>
   );

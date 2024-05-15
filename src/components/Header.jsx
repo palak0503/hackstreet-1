@@ -40,7 +40,7 @@ const styles = {
   },
   container: {
       backgroundColor: '#1F6933',
-      width: '100vw',
+      width: '100vw', 
       paddingTop: '10px',
       paddingBottom: '10px',
       fontFamily: 'Familjen Grotesk, sans-serif',
